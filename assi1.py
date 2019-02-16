@@ -21,7 +21,7 @@ print(ee)
 # float
 
 print("Float variables")
-float_variable_1 = 'a'
+float_variable_1 = 'b'
 a = 4.5
 print(a)
 flt_variable_2 = 'b'

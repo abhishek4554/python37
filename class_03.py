@@ -34,13 +34,14 @@ print(dict_01[1]['test5'][1]['test12'])
 
 dict_02 = {
            'test1': 'test2',
-                            'test3': [
+                            'test3':
+                            [
 
                                {
                                    'test4': 'test5',
                                    'test6': [
                                              'test7', 'test8'
-                                                             ]
+                                            ]
                                },
                                    [
                                        {
@@ -48,21 +49,22 @@ dict_02 = {
                                        },
                                        'test11',
                                                {
-                                                   'test12': 'test13', 'test14': 'print_me'
+                                                'test12': 'test13', 'test14': 'print_me'
                                                }
                                     ],
 
                                     {
                                         'test15': 'print_me_2'
                                     }
-                               ]
+                            ]
            }
 
-print(dict_02['test3'][1][2]['test14'])
-print(dict_02['test3'][2]['test15'])
+# print(dict_02['test3'][1][2]['test14'])
+# print(dict_02['test3'][2]['test15'])
+print(dict_02['test3'][1][0]['test9'])
 
-tuple_variable = (1,)
-print(tuple_variable)
+# tuple_variable = (1,)
+# print(tuple_variable)
 
 
 

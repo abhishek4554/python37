@@ -31,14 +31,14 @@
 #
 # # Dictionary Comprehension
 #
-# sqrt = {}
-#
-# numbers = [2, 4, 6, 8, 9, 11]
-#
-# for num in numbers:
-#     sqrt[num] = num * num
-#
-# print(sqrt)
+sqrt = {}
+
+numbers = [2, 4, 6, 8, 9, 11]
+
+for num in numbers:
+    sqrt[num] = num * num
+
+print(sqrt)
 #
 # _sqrt = {num: num * num for num in numbers}
 #
@@ -123,6 +123,7 @@ ASSINGMENT 1
 _random = list()
 for i in range(1,15):
     _random.append(i)
+    
 print(_random)
 """
 
@@ -135,19 +136,20 @@ def wild_card_args_function(*args):
     :param args:
     :return:
     """
-    print(args[0], args[1])
-
-
-wild_card_args_function(*['test', 'test2'])
-
-def wild_card_Kwargs_function(**kwargs):
-    """
-
-    :param kwargs:
-    :return:
-    """
-    for key, values in kwargs.items():
-     print(key, ": ", values)
-
-user_1 = {"Name": "AB", "Age": "19", "Contact no": 9673453049}
-wild_card_args_function(**user_1)
+#     print(args[0], args[1])
+#
+#
+# wild_card_args_function(*['test', 'test2'])
+#
+# def wild_card_Kwargs_function(**kwargs):
+#     """
+#
+#     :param kwargs:
+#     :return:
+#     """
+#     for key, values in kwargs.items():
+#
+#      print(key, ": ", values)
+#
+# user1 = {"Name": "AB", "Age": "19", "Contact no": 9673453049}
+# wild_card_args_function(**user1)
