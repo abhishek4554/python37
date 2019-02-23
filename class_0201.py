@@ -48,7 +48,7 @@
 # print(integer_list)
 #
 # list_nested = [
-#     "abhiii", ["satara", "pune", [169, 78]]
+#     "abhiii", ["Satara", "pune", [169, 78]]
 # ]
 
 # print(list_nested[1])

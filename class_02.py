@@ -8,3 +8,9 @@ data type  int,float,string,boolean,none- says particular datatype as it doe not
 data structure - list, dictionary.
 '''
 # everything in python is call by reference, what is done after delete a file
+
+# MRO is Memory Resolution Order it is used for polymorphism example
+# everything is object oriented in python
+
+# example for oops is restaurent i'll write all the things today
+#

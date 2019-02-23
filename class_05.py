@@ -21,4 +21,3 @@ for i in range(1, 10):
 
 _odd = [i for i in range(1, 10) if i % 2 == 1]
 print(_odd)
-
